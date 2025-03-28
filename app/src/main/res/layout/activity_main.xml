@@ -5,6 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#EFC8C8"
+    android:backgroundTint="#E7ADAD"
     tools:context=".MainActivity">
 
     <TextView
@@ -22,6 +24,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
+        android:background="#E21414"
+        android:backgroundTint="#BF8471"
         android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,5 +33,43 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.34" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="323dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="63dp"
+        android:background="#0EDC59FF"
+        android:max="100"
+        android:progress="25"
+        android:progressTint="#E91E63"
+        app:layout_constraintBottom_toTopOf="@+id/next_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.358"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="218dp"
+        android:background="#6D0A0A"
+        android:backgroundTint="#B3281E"
+        android:max="5"
+        android:progressTint="#FFC107"
+        android:rating="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
