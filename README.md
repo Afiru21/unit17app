@@ -1,4 +1,4 @@
-# Unit 15 Web Dev
+# Unit 17 Mobile app development 
 ## Brief 
 After finishing the design documenttation for the mobile app I created the program for the mobile app prototype. since its only a  prototype  the looks do not exactly meet my initial  plan but it is expected that the key functionality it presents. Therefore my  mobile app should be able to do the following:
 
