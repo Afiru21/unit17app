@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232222"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".TimerActivity">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/timerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Workout Timer"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Chronometer Display -->
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp" />
+
+    <!-- Start/Stop Button -->
+    <Button
+        android:id="@+id/startStopButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Start / Stop"
+        android:textAllCaps="false" />
+
+    <!-- Reset Button -->
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Reset Timer"
+        android:textAllCaps="false" />
+
+    <!-- Back to Main Button -->
+    <Button
+        android:id="@+id/backToMainButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Back to Main"
+        android:textAllCaps="false" />
+
+</LinearLayout>
