@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- App Title -->
+        <TextView
+            android:id="@+id/mainTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wellness Tracker"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Water Intake Tracker -->
+        <TextView
+            android:id="@+id/waterTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water Intake: 0 glasses"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/addWaterButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Add Glass of Water"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Workout Counter -->
+        <TextView
+            android:id="@+id/workoutTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Workouts: 0"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/addWorkoutButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Log Workout"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Wellness Tip -->
+        <TextView
+            android:id="@+id/wellnessTipTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wellness Tip: "
+            android:textSize="16sp"
+            android:layout_marginBottom="32dp"
+            android:textColor="#444444" />
+
+        <!-- Go to Timer -->
+        <Button
+            android:id="@+id/goToTimerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Workout Timer"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>
