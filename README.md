@@ -26,19 +26,20 @@ I used Android studio in order to develope this app, the programming language I 
 ![Screenshot 2025-05-21 133249](https://github.com/user-attachments/assets/ee610f19-f973-472d-8cd5-3824b84272b3)
 
 # What mobile phone or emulator was used to test the improved mobile app prototype
-I used Android studio in order to improve  this app prototype, the programming language I used is Java and the emulator I used for testing the app is Medium Phone  API 35.  here below are the screesnhot of my prototype.
+I used Android studio in order to improve  this app prototype, the programming language I used is Java and the emulator I used for testing the app is Medium Phone  API 36.  here below are the screesnhot of my prototype.
 
 ## MainActivity page
 
-![image](https://github.com/user-attachments/assets/818d298e-ab9e-4363-a0c5-7a495b75c33a)
+![image](https://github.com/user-attachments/assets/be0cc7ed-1387-4123-b836-5a53ae039701)
 
 
 ## TimerActivity page
 
-![image](https://github.com/user-attachments/assets/f1f83a46-ff81-4f26-a2ff-fbb443a30200)
+![image](https://github.com/user-attachments/assets/647706b6-3116-4ebe-9270-1f1a08257d11)
 
 
 ## BmiCalculatorActivity page
 
+![image](https://github.com/user-attachments/assets/07aca2ae-33d2-4c3c-b4ce-9bd48cebaaae)
 
 
