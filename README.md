@@ -28,6 +28,9 @@ I used Android studio in order to develope this app, the programming language I 
 # What mobile phone or emulator was used to test the improved mobile app prototype
 I used Android studio in order to improve  this app prototype, the programming language I used is Java and the emulator I used for testing the app is Medium Phone  API 36.  here below are the screesnhot of my prototype.
 
+# Screenshots of my improved mobile app prototype
+
+
 ## MainActivity page
 
 ![image](https://github.com/user-attachments/assets/be0cc7ed-1387-4123-b836-5a53ae039701)
